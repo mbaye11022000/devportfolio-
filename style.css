@@ -1,0 +1,209 @@
+/* Exemple de styles personnalisés */
+/* .hero-section {
+    background: white;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+} */
+
+.milestones-section .milestone {
+    background: #0566c7;
+    padding: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+  .custom-border-button {
+    border: 2px solid #007bff; /* Bordure bleue */
+    border-radius: 3.25rem;    /* Coins arrondis (optionnel) */
+  }
+  .align-right {
+    float: right;
+    max-width: 200px;
+    background-color: transparent; /* Élimine le fond */
+  }
+
+
+  .logo-carousel {
+    background: #f7f7f7;
+    padding: 20px 0;
+}
+.logo-carousel img {
+    max-height: 50px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+.logo-carousel img:hover {
+    opacity: 1;
+}
+
+/* .about-section {
+    padding: 5rem 0;
+}
+.about-text {
+    max-width: 600px;
+}
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.about-subtitle {
+    font-size: 1.5rem;
+    color: #666;
+}
+.skills .badge {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.progress-bar-title {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 1.5rem;
+} */
+
+
+.about-section {
+    padding: 5rem 0;
+}
+.about-text {
+    max-width: 600px;
+}
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.about-subtitle {
+    font-size: 14px; /* Diminue la taille de la police */
+    color: #666; /* Couleur existante */
+}
+.mb-5{
+    font-size: 40px; /* Diminue la taille de la police */
+    
+}
+.skills .badge {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.progress-bar-title {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 46px; /* Ajustez la hauteur de ligne pour centrer l'icône verticalement */
+    border: 1px solid #007bff; /* Couleur de la bordure */
+    background-color: transparent;
+    color: #007bff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-borde-button {
+    border: 1px solid #cfd1d3; /* Bordure bleue */
+    border-radius: 0.25rem;    /* Coins arrondis (optionnel) */
+  }
+
+  .background-color{
+    background-color: #007bff;
+  }
+
+  .testimonials-section {
+    background: white;
+    color: #080808;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.testimonials-section p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.testimonials-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.rating {
+    font-size: 1.5rem;
+}
+
+.star {
+    color: gold;
+}
+
+.clor {
+    font-size: 1.5rem; /* Diminue la taille de la police */
+    color: #666; /* Couleur existante */
+}
+
+.small-text {
+    font-size: 0.1rem; /* Ajustez la taille selon vos besoins */
+}
+.couleur{
+    color: #666;
+}
+
+.follow-us-container {
+    display: flex;
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+.follow-us-container p {
+    margin-right: 10px; /* Espace entre le texte et les images */
+    font-size: 16px; /* Ajuste la taille du texte si nécessaire */
+    line-height: 30px; /* Assure que le texte est aligné verticalement avec les images */
+}
+
+.follow-us-container img {
+    width: 30px;
+    margin-right: 10px; /* Espace entre les images */
+}
+.margin-top{
+    margin-top: 8%;
+}
