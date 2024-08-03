@@ -346,12 +346,12 @@ footer {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,...");
-    margin-left: 60%;
+    margin-left: 40%;
 }
 
 
 .custom-border-button {
-    border: 2px solid #007bff; 
+    border: 1px solid #007bff; 
     padding: 0.5rem 1rem; 
     border-radius: 0.25rem; 
 }
