@@ -28,8 +28,8 @@ footer {
 }
 
   .custom-border-button {
-    border: 2px solid #007bff; /* Bordure bleue */
-    border-radius: 3.25rem;    /* Coins arrondis (optionnel) */
+    border: 1px solid #007bff; 
+    border-radius: 5.25rem;    
   }
   .align-right {
     float: right;
@@ -228,7 +228,7 @@ footer {
 
 
 
-/* Styles pour les petits écrans */
+
 @media (max-width: 767.98px) {
     .hero-section {
         text-align: center;
@@ -274,7 +274,7 @@ footer {
     }
 }
 
-/* Styles pour les écrans moyens (tablettes) */
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     .hero-section {
         text-align: center;
@@ -309,7 +309,7 @@ footer {
     }
 }
 
-/* Styles pour les grands écrans (desktops) */
+
 @media (min-width: 992px) {
     .hero-section {
         text-align: left;
