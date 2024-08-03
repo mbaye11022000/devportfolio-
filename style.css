@@ -207,3 +207,110 @@ footer {
 .margin-top{
     margin-top: 8%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles pour les petits écrans */
+@media (max-width: 767.98px) {
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section img {
+        margin: 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about-section {
+        padding: 3rem 1rem;
+    }
+
+    .about-text {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .btn-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .logo-carousel img {
+        max-height: 40px;
+    }
+
+    .testimonial-img {
+        max-width: 80px;
+    }
+
+    .card-img-top {
+        height: auto;
+        width: 100%;
+    }
+
+    .custom-border-button {
+        border-radius: 2rem;
+    }
+}
+
+/* Styles pour les écrans moyens (tablettes) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .about-text {
+        margin-top: 1rem;
+    }
+
+    .btn-circle {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .logo-carousel img {
+        max-height: 45px;
+    }
+
+    .testimonial-img {
+        max-width: 90px;
+    }
+
+    .card-img-top {
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* Styles pour les grands écrans (desktops) */
+@media (min-width: 992px) {
+    .hero-section {
+        text-align: left;
+    }
+
+    .hero-section img {
+        max-width: 100%;
+    }
+
+    .about-text {
+        text-align: left;
+    }
+}
